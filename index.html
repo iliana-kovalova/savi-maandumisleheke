@@ -13,6 +13,48 @@
     body {font-family: 'Inter', sans-serif;}
   </style>
 </head>
+<body class="relative min-h-screen bg-gray-50 text-gray-900">
+
+  <!-- Language Switcher (top-right corner) -->
+  <div class="absolute top-4 right-4">
+    <select onchange="switchLanguage(this.value)" class="border border-gray-300 rounded px-2 py-1 text-sm">
+      <option value="en">English</option>
+      <option value="es">Español</option>
+      <option value="fr">Français</option>
+    </select>
+  </div>
+
+  <!-- Example Content -->
+  <div class="flex flex-col items-center justify-center min-h-screen text-center px-4">
+    <h1 id="title" class="text-4xl font-bold mb-4">Welcome</h1>
+    <p id="description" class="text-lg">This is a simple landing page.</p>
+  </div>
+
+  <!-- Translation Script -->
+  <script>
+    const translations = {
+      en: {
+        title: "Welcome",
+        description: "This is a simple landing page."
+      },
+      es: {
+        title: "Bienvenido",
+        description: "Esta es una página de destino simple."
+      },
+      fr: {
+        title: "Bienvenue",
+        description: "Ceci est une page d'accueil simple."
+      }
+    };
+
+    function switchLanguage(lang) {
+      document.getElementById("title").innerText = translations[lang].title;
+      document.getElementById("description").innerText = translations[lang].description;
+    }
+  </script>
+
+</body>
+</html>
 <body class="bg-white text-gray-800">
   <!-- Navigation -->
   <header class="fixed w-full bg-white/70 backdrop-blur z-30 shadow-sm">
