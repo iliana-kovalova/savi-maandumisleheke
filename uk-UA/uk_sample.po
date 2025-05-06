@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: 5b3c37c32a88338ea22c878f7c9be7a8\n"
+"X-Crowdin-Project-ID: 58\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/sample.po\n"
+"X-Crowdin-File-ID: 376\n"
+"Project-Id-Version: 5b3c37c32a88338ea22c878f7c9be7a8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"PO-Revision-Date: 2025-05-06 08:32\n"
+
+msgid "The sun rises in the east and sets in the west."
+msgstr ""
+
+msgid "She enjoys reading books in her free time."
+msgstr ""
+
+msgid "The weather is getting colder as winter approaches."
+msgstr ""
+
+msgid "I visited the museum last weekend and saw an amazing exhibit."
+msgstr ""
+
+msgid "We should go for a walk to get some fresh air."
+msgstr ""
+
+msgid "My favorite food is pizza, especially with extra cheese."
+msgstr ""
+
+msgid "He plans to travel to Japan next year for vacation."
+msgstr ""
+
+msgid "They are organizing a charity event to help those in need."
+msgstr ""
+
+msgid "I love listening to music while studying."
+msgstr ""
+
+msgid "The city is known for its beautiful parks and gardens."
+msgstr ""
+
